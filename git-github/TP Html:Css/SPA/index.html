@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style> @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); </style>
+    <title>TP1</title>
+</head>
+<body>
+    
+    <!-- div de l'entête -->
+      
+    <header>
+        <nav class="navbar navbar-light" style="background-color: #B5ADAB;">
+            <span class="navbar-brand mb-0 h1">
+                <img src="img/logofake.png" alt="Logo" class="4" onerror="this.src ='img/noimg.jpg'" />
+            </span>
+            <ol class="breadcrumb" style="background-color: #B5ADAB;">
+                <li class="breadcrumb-item"><a href="#">Acceuil</a></li>
+                <li class="breadcrumb-item"><a href="#service">Service</a></li>
+                <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
+            </ol>
+        </nav>
+    </header>    
+
+
+    <main class="col-sm-12 col-md-12">
+        <!-- caroussel -->
+        <div class="col-md-7 rounded mx-auto d-block">
+            <section class="carousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/anime1.jpg" class="d-block w-100" alt="caroussel">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/anime2.jpg" class="d-block w-100" alt="caroussel">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/anime3.jpg" class="d-block w-100" alt="caroussel">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </section>
+        </div>
+        <!-- fin caroussel -->
+        <!-- service  -->
+        <div class="tableau">
+        <section id="service" class="row">
+            <h5 class="col-md-12 text-center">Nos services</h5>
+            <table class="col-12 table table-hover table-light">
+                <div class="top-tableau">
+                <thead class="thead-light">
+                    <tr>            
+                        <th>Nos sushis</thscope="col">
+                        <th>Nos makis</thscope="col">
+                        <th>Nos sashimis</th>
+                    </tr>
+                </thead>
+                </div>
+                <tbody>
+                    <tr>      
+                        <td>Sushi saumon</td>
+                        <td>Makis saumon-avocat</td>
+                        <td>Sashimi saumon</td>
+                    </tr>
+                    <tr>
+                        <td>Sushi crevette</td>
+                        <td>Makis crevette-menthe</td>
+                        <td>Sashimi truîte</td>
+                    </tr>
+                    <tr>
+                        <td>Sushi thon rouge</td>
+                        <td>Makis thon mayonnaise</td>
+                        <td>Sashimi thon rouge</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        </div>
+        <!-- fin service -->
+
+    <!-- presentation perso  -->
+    <div class="lesgens">
+        <section id="lateam">
+            <h5 class="col-md-12 text-center">Notre Team</h5>
+            <div class="row">      
+                <div class="card" style="width: 18rem;">
+                    <img src="img/perso1.jpg" alt="logo" class="img-thumbnail" onerror="this.src ='img/noimg.jpg'" />
+                    <div class="card-body">
+                        <p class="card-text col-sm"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique in voluptatem minus incidunt laudantium? Obcaecati, fugiat vero earum iure quis animi eveniet omnis tenetur, ratione totam illo atque tempore in!
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/perso2.jpg" alt="logo" class="img-thumbnail" onerror="this.src ='img/noimg.jpg'" />
+                    <div class="card-body">
+                        <p class="card-text col-sm"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique in voluptatem minus incidunt laudantium? Obcaecati, fugiat vero earum iure quis animi eveniet omnis tenetur, ratione totam illo atque tempore in!
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/perso3.jpg" alt="logo" class="img-thumbnail" onerror="this.src ='img/noimg.jpg'" />
+                    <div class="card-body">
+                        <p class="card-text col-sm"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique in voluptatem minus incidunt laudantium? Obcaecati, fugiat vero earum iure quis animi eveniet omnis tenetur, ratione totam illo atque tempore in!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- fin presentation perso  -->
+
+    <!-- debut portfolio  -->
+    <section id="portfolio">
+        <div class="card mb-2">
+        <div class="row no-gutters">
+            <div class="col-md-6">
+            <img src="img/portfolio.jpg" class="card-img" alt="sushi">
+            </div>
+            <div class="col-md-6">
+            <div class="card-body">
+                <h5 class="card-title text-center">Nos créations</h5>
+                <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus aperiam ad aut omnis distinctio quo sed molestias quam, dicta neque soluta amet nobis consequatur ducimus non? Officia cupiditate voluptatibus numquam!
+                Et modi dolores vitae maiores, sed quo voluptates cupiditate enim expedita quidem minima quis natus facilis dolor, ipsam ducimus! Quibusdam culpa eos rerum odit iusto numquam hic neque mollitia sequi!
+                Sint quibusdam adipisci aut, quasi, exercitationem aspernatur sequi aliquid molestiaquam eum illum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nam quisquam? Laudantium eligendi quaerat tempore quia cum amet! Dolor ipsum earum rem eaque necessitatibus ! </p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+        <!-- fin portfolio  -->
+    
+    <!-- contact  -->
+    <div id="contact">
+    <div class="card mb-2">
+        <div class="row no-gutters">
+        <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d54958.93799917171!2d3.9120146015048265!3d43.60432483970029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6a581fce199e7%3A0xe4be8b68dcce791d!2sFORMEXT!5e0!3m2!1sfr!2sfr!4v1574508612020!5m2!1sfr!2sfr" width="400" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+            </div>
+            <div class="col-md-6">
+            <div class="card-body">  
+                <h5>Nous contactez</h5>
+                <div class="formulaire">               
+                    <form action="#confirm" method="GET">
+                        <fieldset>
+                            <label>
+                                Nom: <br/> 
+                                <input type="text" placeholder="Votre nom" />
+                            </label>
+                        </fieldset>
+                        <fieldset>    
+                            <label>
+                                Votre message: 
+                                <br/>
+                                <textarea placeholder="Votre message" cols="30" rows="10"></textarea>
+                            </label>
+                        </fieldset>
+                    <div class="bouton">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- fin contact  -->
+    </main>
+
+    <footer>
+
+        <!-- article de fin  -->
+        <div class="findepage">
+        <div class="row">
+            <div class="col-4">
+                <h1>Nos restaurants</h1>
+                <ul>
+                    <li>Montpellier</li>
+                    <li>Carcassone</li>
+                    <li>Paris 13ème</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h1>Nos réseaux sociaux</h1>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h1>Et plus encore</h1>
+                <ul>
+                    <li>S'abonner a la Newsletter</li>
+                    <li>Faire une critique</li>
+                    <li>Reserver à l'avance</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <!-- fin article de fin  -->
+
+        <!-- pied de page  -->
+        <div class="copyright">
+        <div class="row">
+            <div class="col-12">
+                <hr/>
+                <p>
+                &copy; ROUQUET Emma - 2019
+                </p>
+            </div>
+        </div>
+        </div>
+        <!-- fin pied de page  -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
